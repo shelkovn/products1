@@ -1,0 +1,16 @@
+﻿<Window x:Class="products.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:products"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="850">
+    <Grid>
+        <WrapPanel Orientation="Vertical">
+            <local:producttpl Imgsource="https://i.pinimg.com/236x/0f/34/50/0f345020fd30f06446f04ce4190dd5fd.jpg" Productname="Half-Devil" Description="Won't cry (probably)" Seller="Spardas Family" Price="1000 Red orbs" Instock="I SHALL HUNT THEM DOWN THROUGH ETERNITY IF I MUST"/>
+            <local:producttpl Imgsource="https://i.pinimg.com/736x/56/72/ca/5672ca5dea94afe05aac6595b12d5565.jpg" Productname="Armed Human" Description="OWWWW can and will shoot" Seller="yo ma" Price="A tear" Instock="Billions"/>
+            <local:producttpl Imgsource="https://static.wikia.nocookie.net/devilmaycry/images/4/44/DMC3_Red_Orb.png/revision/latest?cb=20190519021429" Productname="Red orb" Description="Totally not demon blood" Seller="Hell co." Price="SLAY ALL" Instock=" lots"/>
+        </WrapPanel>
+    </Grid>
+</Window>
